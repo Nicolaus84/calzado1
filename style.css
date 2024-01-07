@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(13, 199, 183);
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+
+.date{
+    display: flex;
+    margin: 10px 10px;
+    padding: 0 100px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    justify-content:space-between ;
+    padding: 125px;
+
+}
+
+.buscar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    font-weight: 200;
+
+}
+
+.buscar input{
+    width: 700px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 20px;
+    border-radius: 30px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 300px;
+    margin-right: 100px;
+    
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+nav a:hover{
+    color:white;
+}
+
+@media(max-width700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+
+
+.container{
+    
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen{
+    width: 250px;
+    margin: 10px 100px;
+}
+
+.btn{
+    position: absolute;
+    justify-content: left;
+    
+    right: 425px;
+    display: flex;
+    width: 50px;
+    height: 30px;
+    line-height: 10px;
+    
+}
+.sidebar_nav{
+    height: 100%;
+    width: 160px;
+    position:absolute;
+    z-index:1;
+    top: 10px;
+    left: 0;
+    padding-top: 600px;
+    
+
+}
+.sidebar_nav a{
+    padding: 35px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: justify;
+}
+.garantia img{
+    height: 30px;
+
+}
+.envio img{
+    height: 30px;
+}
+.envuelve img{
+    height: 30px;
+}
+.compras img{
+    height: 30px;
+}
+.titulo_seccion{
+    
+    margin:15px 15px;
+    padding: 0;
+    
+}
+.contenedor1{
+    padding-top: 150px;
+    text-align: center;
+    justify-content:right;
+    display: flex;
+    padding-right: 150px;
+}
+.contenedor1 contenedor{
+    position: absolute;
+
+    padding-top: 900px;
+    padding: 10px;
+}
+.contactenos{
+    height: 20px;
+    justify-content: center;
+}
